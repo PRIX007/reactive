@@ -1,0 +1,13 @@
+
+spring:
+  r2dbc:
+    url: r2dbc:postgres://localhost:5432/dummy
+    username: test
+    password: test
+  liquibase:
+    url: jdbc:postgresql://localhost:5432/dummy
+    user: test
+    password: test
+    enabled: true
+
+
